@@ -15,3 +15,6 @@ environment : azure cloud shell (bash)
 要注意的地方是 
 1. 若要建Lord Balance ，LB 要先在建網卡(NIC)先建好 
 2. 在建VM前，最好按照 PublicIP -> NIC -> VM ，這個順序來建，原因是有一些參數沒有在 az vm create 內
+
+automail.ps1  
+利用gmail 發工作日誌給主管，放到工作排程器，就可以每天自動發工作日誌給主管了
